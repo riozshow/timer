@@ -1,0 +1,14 @@
+@import "../../styles/settings.scss";
+
+.timeDisplay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: $base-size * 4;
+  gap: 5px;
+  margin: 1rem;
+
+  p {
+    margin: 0;
+  }
+}
